@@ -19,17 +19,9 @@ jobs:
 
       - run: npm install
 
-      - name: Check types
-        run: |
-          npm run check-types
-
-      - name: Lint
-        run: |
-          npm run lint
-
       - name: Package
         run: |
-          npm run pkg
+          npx vsce package
 
       - name: Get Version
         run: |

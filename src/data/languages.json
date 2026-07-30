@@ -305,6 +305,9 @@
         "/(cargo\\.toml|cargo\\.lock)/i": {
             "image": "cargo"
         },
+        "/\\.npb$/": {
+            "image": "npb"
+        },
         "/(vercel|now)\\.json|\\.(now|vercel)ignore/i": {
             "image": "vercel"
         },
